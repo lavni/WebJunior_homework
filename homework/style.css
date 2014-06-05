@@ -1,0 +1,107 @@
+* { margin: 0; padding: 0; }
+p { margin: 5px 0 10px 0; }
+
+body{
+    margin: 0 auto;
+    width:60%;
+    font-family: "Lucida Grande",
+    "Lucida Sans Unicode", "Helvetica",
+    "Arial", "Verdana", "sans-serif";
+    background: url(img/2.jpg) fixed;
+    background-size: 100% 100%;
+}
+
+header{
+padding-top: 10px;
+padding-bottom: 10px;
+}
+nav{
+    text-align: center;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #D87B7B;
+}
+nav a{
+padding-right: 30px;
+color: #5D77DF;
+}
+
+nav a:hover{
+    color:#1E3591;
+}
+
+footer{
+    padding-top: 10px;
+    color: #868686;
+    font-style: italic;
+}
+
+h1{
+    margin-bottom: 1em;
+    color: #A6611C;
+    font-weight: 1000;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #FFAB56;
+}
+.p1{
+    float: right;
+    width: 170px;
+}
+
+.content{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+div div{
+     text-align: center;
+}
+
+div img{
+    width: 200px;
+    margin: 0 5px 0 5px;
+}
+
+form p{
+    margin: 5px 0 0 0;
+    text-decoration: bold;
+}
+
+#back{
+    font-weight: 700;
+}
+
+ nav div{
+    margin-top: 1em;
+    text-align: left;
+}
+
+.transform a img:hover{
+     -moz-transform: rotate(15deg); /* Для Firefox */
+    -ms-transform: rotate(15deg); /* Для IE */
+    -webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(15deg); /* Для Opera */
+    transform: rotate(15deg);
+}
+input:focus, textarea:focus{
+     border: 2px solid #FFAB56;
+}
+
+.news{
+    margin: 10px 0 0 20px;
+}
+
+iframe{
+    border-radius: 50%;
+    -moz-border-radius: 50%; /* Firefox */
+-webkit-border-radius: 50%; /* Safari, Chrome */
+-khtml-border-radius: 50%; /* KHTML */
+border-radius: 50%; /* CSS3 */'
+}
