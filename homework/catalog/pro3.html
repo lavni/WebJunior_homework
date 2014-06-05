@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Новости</title>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <style type="text/css">
+        body{
+            margin: 0 auto;
+            width:60%;
+        }
+            header{
+            padding-top: 10px;
+        }
+            nav a{
+            padding-right: 20px;
+        }
+        footer{
+            padding-top: 10px;
+            color: #868686;
+        }
+        .content{
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+         div div{
+             text-align: center;
+        }
+         div img{
+            width: 200px;
+            margin: 0 5px 0 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="../logo.png">
+        </header>
+        <hr noshade size="1px">
+        <nav>
+            <a href="../index.html">Главная</a>
+            <a href="../catalog.html"><b>Каталог</b></a>
+            <a href="../news.html">Новости</a>
+            <a href="../contacts.html">Контакты</a>
+        </nav>
+        <div class="content">
+            <a href="../catalog.html">Назад</a>
+            <h1>Ноутбук Lenovo IdeaPad</h1>
+            <div>
+                <img src="pro3.jpg" alt="Lenovo IdeaPad">
+                <img src="pro32.jpg" alt="Lenovo IdeaPad">
+                <img src="pro33.jpg" alt="Lenovo IdeaPad">
+            </div>
+             <p>Обновленная версия игрового ноутбука от Lenovo. Модель получила процессор Intel четвертого поколения, динамики JBL, алюминиевый корпус и подсветку клавиатуры. Также, присутствуют различные варианты комбинаций жестких дисков и видеокарт.</p>
+            <h2>Техническое описание</h2>
+            <p>Класс - потребительский <br>
+            Ценовой диапазон - средний уровень <br>
+            Тип - игровой  </p>
+            <h3>Конструкция</h3>
+            <p>Материал корпуса - пластик, металл <br>
+            Фактура поверхности корпуса - шлифованная <br>
+            Цвет корпуса - чёрный, тёмно-серый <br>
+            Материал крышки - алюминий <br>
+            Фактура поверхности крышки - шлифованная <br>
+            Цвет крышки - темно-серый </p>
+            <h3>Габариты и вес</h3>
+            <p>Ширина - 386 мм <br>
+            Глубина - 258 мм <br>
+            Толщина - 35.8 мм <br>
+            Толщина передней грани - 15.4 мм <br>
+            Вес - 2690 г </p>
+             <hr noshade size="1px">
+            <h2>Форма заказа</h2>
+            <form method="post" action="file.php" >
+                <p>Имя*</p>
+                <input type="text" name="name" placeholder="Введите ваше имя">
+                <p>Электронная почта*</p>
+                <input type="email" name="email" placeholder="Введите ваш емейл">
+                <p>Телефон*</p>
+                <input type="tel" name="tel" placeholder="Введите ваш телефон" >
+                <p>Дата доставки*</p>
+                <input type="date" name="date">
+                <p>Способ оплаты*</p>
+                <input type="radio" name="payment" value="0">Кредитная карта <br>
+                <input type="radio" name="payment" value="1">Наличные
+                <p>Примечание</p>
+                <textarea name="opinion"></textarea>
+                <br><br>
+                <input type="submit" name="name" value="Отправить" >
+                <input type="reset" name="name" value="Очистить" >
+            </form>
+        </div>
+        <hr noshade size="1px">
+        </div>
+        <footer>&copy; Инна Авраменко</footer>
+    </body>
+</html>

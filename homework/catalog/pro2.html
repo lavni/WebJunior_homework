@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Новости</title>
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+        <style type="text/css">
+        body{
+            margin: 0 auto;
+            width:60%;
+        }
+            header{
+            padding-top: 10px;
+        }
+            nav a{
+            padding-right: 20px;
+        }
+        footer{
+            padding-top: 10px;
+            color: #868686;
+        }
+        .content{
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+         div div{
+             text-align: center;
+        }
+         div img{
+            width: 200px;
+            margin: 0 5px 0 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="../logo.png">
+        </header>
+        <hr noshade size="1px">
+        <nav>
+            <a href="../index.html">Главная</a>
+            <a href="../catalog.html"><b>Каталог</b></a>
+            <a href="../news.html">Новости</a>
+            <a href="../contacts.html">Контакты</a>
+        </nav>
+        <div class="content">
+             <a href="../catalog.html">Назад</a>
+            <h1>Ноутбук ASUS X550C</h1>
+            <div>
+                <img src="pro2.jpg" alt="ASUS X550C">
+                <img src="pro22.jpg" alt="ASUS X550C">
+                <img src="pro23.jpg" alt="ASUS X550C">
+            </div>
+            <p>Универсальный аппарат от компании Asus потребительского класса. Аппарат построен на базе процессора Intel третьего поколения, имеет стандартный набор встроенных модулей и разъемов. В зависимости от модели, может поставляться как в плаcтиковом, так и в металлическом корпусе.</p>
+            <h2>Техническое описание</h2>
+            <p>Класс - потребительский <br>
+            Ценовой диапазон - средний уровень <br>
+            Тип - универсальный <br>
+            Дизайн - практичный </p>
+            <h3>Конструкция</h3>
+            <p>Варианты цвета корпуса - серый, красный, белый, синий </p>
+            <h3>Габариты и вес</h3>
+            <p>Ширина - 380 мм <br>
+            Глубина - 251 мм <br>
+            Толщина - 31.7 мм <br>
+            Толщина передней грани - 24.8 мм <br>
+            Вес - 2300 г </p>
+             <hr noshade size="1px">
+            <h2>Форма заказа</h2>
+            <form method="post" action="file.php" >
+                <p>Имя*</p>
+                <input type="text" name="name" placeholder="Введите ваше имя">
+                <p>Электронная почта*</p>
+                <input type="email" name="email" placeholder="Введите ваш емейл">
+                <p>Телефон*</p>
+                <input type="tel" name="tel" placeholder="Введите ваш телефон" >
+                <p>Дата доставки*</p>
+                <input type="date" name="date">
+                <p>Способ оплаты*</p>
+                <input type="radio" name="payment" value="0">Кредитная карта <br>
+                <input type="radio" name="payment" value="1">Наличные
+                <p>Примечание</p>
+                <textarea name="opinion"></textarea>
+                <br><br>
+                <input type="submit" name="name" value="Отправить" >
+                <input type="reset" name="name" value="Очистить" >
+            </form>
+        </div>
+        <hr noshade size="1px">
+        </div>
+        <footer>&copy; Инна Авраменко</footer>
+    </body>
+</html>
