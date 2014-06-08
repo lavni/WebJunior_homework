@@ -7,9 +7,11 @@ body{
     font-family: "Lucida Grande",
     "Lucida Sans Unicode", "Helvetica",
     "Arial", "Verdana", "sans-serif";
-    background: url(img/2.jpg) fixed;
-    background-size: 100% 100%;
+    background: url(img/3.png) fixed no-repeat
+    right top , url(img/2.jpg);
+    background-size:15%;
 }
+
 
 header{
 padding-top: 10px;
@@ -101,7 +103,15 @@ input:focus, textarea:focus{
 iframe{
     border-radius: 50%;
     -moz-border-radius: 50%; /* Firefox */
--webkit-border-radius: 50%; /* Safari, Chrome */
--khtml-border-radius: 50%; /* KHTML */
-border-radius: 50%; /* CSS3 */'
+    -webkit-border-radius: 50%; /* Safari, Chrome */
+    -khtml-border-radius: 50%; /* KHTML */
+    border-radius: 50%; /* CSS3 */'
+    overflow: hidden;
+}
+ .map {
+width: 600px;
+margin: auto;
+border-radius: 50%;
+overflow: hidden;
+position: relative;
 }

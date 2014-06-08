@@ -1,0 +1,210 @@
+/*div{
+	border: 1px solid black;
+}*/
+ *{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ @font-face {
+    font-family: pfagorasanspro-light; /* Гарнитура шрифта */
+    src: url(fpfagorasanspro-light.ttf); /* Путь к файлу со шрифтом */
+	src: local(pfagorasanspro-light), url(pfagorasanspro-light.ttf);
+   }
+body{
+	background: url(img/bg2.png) no-repeat 50% 0;
+	overflow: hidden;
+	font-family: pfagorasanspro-light, arial, sans-serif;
+}
+.main{
+	width: 996px;
+	margin: 0 auto;
+/*	background: url(main.jpg);
+*/	color: #767676;
+}
+.main a{
+	text-decoration: none;
+	color: #767676;
+}
+.header{
+	height: 140px;
+	padding: 47px 0 47px 47px;
+}
+.logo{
+	width: 300px;
+}
+.logo img{
+	margin-right: 12px;
+}
+.nav{
+	float: right;
+	padding: 14px 0 14px 0px;
+	width: 600px;
+	font-size: 18px;
+}
+.nav div{
+	display: inline;
+	height: 33px;
+	width: 106px;
+	margin-right: 12px;
+	margin-left: 17px;
+	font-stretch: expanded;
+}
+.nav div:hover{
+	background: url(img/backhover.png) no-repeat;
+	background-size: 100%;
+}
+.inline{
+	display: inline;
+}
+.foto{
+	height: 524px;
+	background: url(img/foto.jpg);
+}
+.apple{
+	position: relative;
+	left: 88px;
+	top: 200px;
+}
+.angle1{
+	position: relative;
+	left: 883px;
+	bottom: 428px;
+}
+.angle2{
+	position: relative;
+	left: 686px;
+	top: -130px;
+}
+.love{
+	position: relative;
+	width: 482px;
+	color: #fff;
+	top: -161px;
+	left: 452px;
+}
+h1{
+	font-size: 36px;
+	margin-bottom: 18px;
+}
+p{
+	font-size: 16px;
+	font-family: "Tahoma", arial;
+}
+.content{
+	height: 270px;
+	padding: 66px 50px 66px 50px;
+}
+.col{
+	height: 190px;
+	padding: 0 50px 50px 50px;
+}
+.col h1{
+	font-size: 25px;
+}
+.col p{
+	font-size: 14px;
+	font-family: "Tahoma", arial;
+}
+.one{
+	float: left;
+	width: 298px;
+}
+.one img, .two img, .three img{
+	float: left;
+}
+.text{
+	padding: 7px 0 0 17px;
+	overflow: hidden;
+}
+.text div{
+	padding-top: 18px;
+}
+.one,.two{
+	margin-right: 16px;
+}
+.two{
+	overflow: hidden;
+}
+.three{
+	float: right;
+	width: 258px;
+}
+#threeimg{
+	padding-top: 9px;
+}
+.sale{
+	height: 174px;
+	width: 996px;
+}
+.sale1{
+	float: left;
+	padding: 27px 0 0 25px;
+}
+.texts{
+	width: 660px;
+	position: relative;
+	left: -33px;
+	overflow: hidden;
+	padding: 47px 0 0 0;
+}
+.texts h1{
+	font-size: 26px;
+}
+.texts p{
+	font-size: 14px;
+	font-family: "Tahoma", arial;
+}
+.texts a{
+	color: #5f93a2;
+}
+.sale2{
+	position: relative;
+	top: -78px;
+	left: 663px;
+}
+.footer{
+	height: 106px;
+}
+.copy{
+	padding: 32px 0 0 47px;
+	font-family: "Tahoma", arial;
+	width: 300px;
+	display: inline-block;
+}
+.copy img{
+	float: left;
+}
+.copy div{
+	padding: 6px 0 0 13px;
+	overflow: hidden;
+}
+.copy h2{
+	font-size: 13px;
+}
+.copy p{
+	font-size: 11px;
+	padding-top:5px;
+}
+.phone{
+	float: right;
+	width: 346px;
+	overflow: hidden;
+	padding: 31px 0 0 0;
+}
+.phone p{
+	font-size: 15px;
+}
+.phone h2{
+	font-size: 30px;
+}
+.fb{
+	position: relative;
+	top: -53px;
+	left: 219px;
+}
+.tw{
+	position: relative;
+	top: -81px;
+	left: 261px;
+}
