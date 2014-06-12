@@ -1,7 +1,7 @@
 /*div{
 	border: 1px solid black;
 }*/
- *{
+div {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
@@ -13,14 +13,14 @@
    }
 body{
 	background: url(img/bg2.png) no-repeat 50% 0;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	font-family: pfagorasanspro-light, arial, sans-serif;
 }
 .main{
 	width: 996px;
 	margin: 0 auto;
-/*	background: url(main.jpg);
-*/	color: #767676;
+	background: url(main.jpg);
+	color: #767676;
 }
 .main a{
 	text-decoration: none;
@@ -38,21 +38,29 @@ body{
 }
 .nav{
 	float: right;
-	padding: 14px 0 14px 0px;
+	padding: 6px 0 7px;
 	width: 600px;
+	font-size: 0;
+}
+.nav li{
+	display: inline-block;
+	/*height: 33px;
+	width: 106px;*/
+	margin-right: -3px;
+	margin-left: 1px;
 	font-size: 18px;
+	background: url(img/backhover-l.png) no-repeat 0 -33px;
 }
-.nav div{
-	display: inline;
-	height: 33px;
-	width: 106px;
-	margin-right: 12px;
-	margin-left: 17px;
-	font-stretch: expanded;
+.nav a {
+	padding: 8px 16px 7px 16px;
+	display: block;
+	background: url(img/backhover-r.png) no-repeat 100% -33px;
 }
-.nav div:hover{
-	background: url(img/backhover.png) no-repeat;
-	background-size: 100%;
+.nav li:hover{
+	background-position: 0;
+}
+.nav li:hover a {
+	background-position: 100%;
 }
 .inline{
 	display: inline;
@@ -60,40 +68,50 @@ body{
 .foto{
 	height: 524px;
 	background: url(img/foto.jpg);
+	position: relative;
 }
 .apple{
-	position: relative;
+	position: absolute;
 	left: 88px;
 	top: 200px;
 }
 .angle1{
-	position: relative;
+	position: absolute;
 	left: 883px;
-	bottom: 428px;
+	top:-24px;
+	width: 100px;
 }
 .angle2{
-	position: relative;
+	position: absolute;
 	left: 686px;
-	top: -130px;
+	bottom: -47px;
+	width: 300px;
 }
 .love{
 	position: relative;
-	width: 482px;
+	width: 497px;
 	color: #fff;
-	top: -161px;
+	top: 309px;
 	left: 452px;
+	overflow: hidden;
+}
+.love p {
+	line-height: 23px;
 }
 h1{
 	font-size: 36px;
-	margin-bottom: 18px;
+	margin-bottom: 15px;
 }
 p{
-	font-size: 16px;
+	font-size: 14px;
 	font-family: "Tahoma", arial;
 }
 .content{
 	height: 270px;
 	padding: 66px 50px 66px 50px;
+}
+.content p {
+	line-height: 23px;
 }
 .col{
 	height: 190px;
@@ -103,8 +121,8 @@ p{
 	font-size: 25px;
 }
 .col p{
-	font-size: 14px;
-	font-family: "Tahoma", arial;
+	font-size: 13px;
+	line-height: 20px;
 }
 .one{
 	float: left;
@@ -114,11 +132,15 @@ p{
 	float: left;
 }
 .text{
-	padding: 7px 0 0 17px;
+	padding:8px 0 0 17px;
 	overflow: hidden;
 }
 .text div{
-	padding-top: 18px;
+	padding: 12px 3px 0 0;
+}
+.text h1{
+	margin-bottom: 11px;
+	width: 165px;
 }
 .one,.two{
 	margin-right: 16px;
@@ -136,6 +158,7 @@ p{
 .sale{
 	height: 174px;
 	width: 996px;
+	position: relative;
 }
 .sale1{
 	float: left;
@@ -150,18 +173,20 @@ p{
 }
 .texts h1{
 	font-size: 26px;
+	margin-bottom: 11px;
 }
 .texts p{
-	font-size: 14px;
-	font-family: "Tahoma", arial;
+	font-size: 13px;
+	line-height: 20px;
 }
 .texts a{
 	color: #5f93a2;
 }
 .sale2{
-	position: relative;
-	top: -78px;
-	left: 663px;
+	position: absolute;
+	width:100px;
+	top: 42px;
+	left: 910px;
 }
 .footer{
 	height: 106px;
