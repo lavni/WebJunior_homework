@@ -1,0 +1,8 @@
+<!--[if lte IE 8]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script> 
+<![endif]-->
+
+<!--[if (IE 6) | (IE 7)]>
+<link href="css/style_ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
