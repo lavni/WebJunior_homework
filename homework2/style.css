@@ -19,7 +19,7 @@ body{
 .main{
 	width: 996px;
 	margin: 0 auto;
-	background: url(main.jpg);
+	/*background: url(main.jpg);*/
 	color: #767676;
 }
 .main a{

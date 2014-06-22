@@ -145,5 +145,8 @@
 				</div>
 			</div>
 		</footer>
+		<?php
+			echo "&copy; 2010-"; echo date('Y');
+		?>
 	</body>
 </html>
